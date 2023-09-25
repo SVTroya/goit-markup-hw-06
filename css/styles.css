@@ -150,6 +150,7 @@ fieldset {
 
 .container {
     min-width: 320px;
+    max-width: 428px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -630,6 +631,7 @@ fieldset {
 
 @media (min-width: 768px) {
     .customer-item {
+        max-width: 168px;
         --items-number: 3;
     }
 }
