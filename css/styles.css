@@ -722,6 +722,16 @@ fieldset {
     color: var(--color-logo-text-light);
 }
 
+@media (max-width: 767px) {
+    .container-motivation,
+    .container-social,
+    .container-subscribe-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media (min-width: 1154px) {
     .container-motivation {
         margin-right: 120px;
@@ -765,6 +775,7 @@ fieldset {
 }
 
 .footer-subscribe-form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -812,7 +823,7 @@ input::placeholder {
 }
 
 .footer-email-input::placeholder{
-    color: rgba(256, 256, 256, 0.3);
+    color: rgba(256, 256, 256, 0.6);
 }
 
 @media (min-width: 1158px) {
